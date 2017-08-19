@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Youtube Song</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Download<span>Songz</span></h1>
+        <p>Search the YouTube!</p>
+      </header>
+      <section>
+        <form id="search-form" name = "search-from"  onsubmit="event.preventDefault(); search();">
+          <div class="fieldcontainer">
+            <input type="serach" name="" id="query" class="search-field" placeholder="Search Youtube....">
+            <button type="submit" name="search-btn" id="search-btn">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+          </div>
+        </form>
+        <ul id="results"></ul>
+        <div class="buttons"></div>
+      </section>
+      <footer>
+        <p>Developed & Designed By SAURAV GANGULY</p>
+      </footer>
+    </div>
+
+  </body>
+</html>
